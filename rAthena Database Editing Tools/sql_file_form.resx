@@ -117,4 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 17</value>
+  </metadata>
+  <metadata name="fldBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 17</value>
+  </metadata>
+  <data name="ckboxInAppErrs.ToolTip" xml:space="preserve">
+    <value>When checked issues like invalid IDs, aegis name errors, etc.
+will be displayed in a popup window at time of occurrance.
+
+When not checked and logging is turned on, these errors are
+reported in the logging files only.</value>
+  </data>
+  <data name="nudLogLevel.ToolTip" xml:space="preserve">
+    <value>1: General information such as non-critical messages (IE. Buy set lower than sell)
+2: General information and serious warnings (IE: equipment with no equip location)
+3: All previous plus critial events (IE. invalid IDs, aegis name errors, etc).
+</value>
+  </data>
 </root>

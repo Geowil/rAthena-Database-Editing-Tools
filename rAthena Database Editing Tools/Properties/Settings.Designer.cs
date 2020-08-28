@@ -8,22 +8,258 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace rAthena_Database_Editing_Tools.Properties
-{
-
-
+namespace rAthena_Database_Editing_Tools.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("item_db,item_db_re,mob_db,mob_db_re")]
+        public string prme_src_files {
+            get {
+                return ((string)(this["prme_src_files"]));
+            }
+            set {
+                this["prme_src_files"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("item_db2,item_db2_re,,mob_db2,mob_db2_re")]
+        public string sec_src_files {
+            get {
+                return ((string)(this["sec_src_files"]));
+            }
+            set {
+                this["sec_src_files"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string gen_dir {
+            get {
+                return ((string)(this["gen_dir"]));
+            }
+            set {
+                this["gen_dir"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string src_dir {
+            get {
+                return ((string)(this["src_dir"]));
+            }
+            set {
+                this["src_dir"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("logs\\")]
+        public string log_location {
+            get {
+                return ((string)(this["log_location"]));
+            }
+            set {
+                this["log_location"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int log_level {
+            get {
+                return ((int)(this["log_level"]));
+            }
+            set {
+                this["log_level"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string cust_src_files {
+            get {
+                return ((string)(this["cust_src_files"]));
+            }
+            set {
+                this["cust_src_files"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool use_re {
+            get {
+                return ((bool)(this["use_re"]));
+            }
+            set {
+                this["use_re"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool use_sec {
+            get {
+                return ((bool)(this["use_sec"]));
+            }
+            set {
+                this["use_sec"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool use_cust {
+            get {
+                return ((bool)(this["use_cust"]));
+            }
+            set {
+                this["use_cust"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string data_src {
+            get {
+                return ((string)(this["data_src"]));
+            }
+            set {
+                this["data_src"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string cust_itm_loc {
+            get {
+                return ((string)(this["cust_itm_loc"]));
+            }
+            set {
+                this["cust_itm_loc"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string cust_mob_loc {
+            get {
+                return ((string)(this["cust_mob_loc"]));
+            }
+            set {
+                this["cust_mob_loc"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string info_sufx {
+            get {
+                return ((string)(this["info_sufx"]));
+            }
+            set {
+                this["info_sufx"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string warn_sufx {
+            get {
+                return ((string)(this["warn_sufx"]));
+            }
+            set {
+                this["warn_sufx"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string err_sufx {
+            get {
+                return ((string)(this["err_sufx"]));
+            }
+            set {
+                this["err_sufx"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool enable_logging {
+            get {
+                return ((bool)(this["enable_logging"]));
+            }
+            set {
+                this["enable_logging"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool indy_logging {
+            get {
+                return ((bool)(this["indy_logging"]));
+            }
+            set {
+                this["indy_logging"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool rpt_errs_in_app {
+            get {
+                return ((bool)(this["rpt_errs_in_app"]));
+            }
+            set {
+                this["rpt_errs_in_app"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string src_file_ext {
+            get {
+                return ((string)(this["src_file_ext"]));
+            }
+            set {
+                this["src_file_ext"] = value;
             }
         }
     }

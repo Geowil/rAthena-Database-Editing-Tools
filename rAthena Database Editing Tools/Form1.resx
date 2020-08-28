@@ -117,4 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Welcome to the rAthena Database Editing Tools application by George Williams!
+
+Here are the current features as of verison 1.0:
+Modify or create item or mob entries
+Define .sql files to load from folder
+Options to turn on loading of RE and Secondary sql files
+Ability to connect to a MySQL database for editing
+Generate Insert/Update files for MySQL tables from loaded sql files
+</value>
+  </data>
+  <metadata name="fldBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
 </root>
